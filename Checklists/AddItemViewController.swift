@@ -20,7 +20,7 @@ protocol AddItemViewControllerDelegate: class {
     )
 }
 
-class AddItemViewController: UITableViewController, UITextViewDelegate {
+class AddItemViewController: UITableViewController, UITextFieldDelegate {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var doneBarButton: UIBarButtonItem!
     

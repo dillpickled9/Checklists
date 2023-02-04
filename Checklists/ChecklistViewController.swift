@@ -19,11 +19,11 @@ AddItemViewControllerDelegate {
       items.append(item1)
       let item2 = ChecklistItem()
       item2.text = "Brush my teeth"
-      item2.checked = true
+      //item2.checked = true
       items.append(item2)
       let item3 = ChecklistItem()
       item3.text = "Learn iOS development"
-      item3.checked = true
+      //item3.checked = true
       items.append(item3)
       let item4 = ChecklistItem()
       item4.text = "Soccer practice"
