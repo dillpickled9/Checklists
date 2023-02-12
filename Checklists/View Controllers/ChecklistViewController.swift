@@ -14,7 +14,6 @@ ItemDetailViewControllerDelegate {
     
     var checklist: Checklist!
     
-
     override func viewDidLoad() {
       super.viewDidLoad()
         navigationItem.largeTitleDisplayMode = .never
